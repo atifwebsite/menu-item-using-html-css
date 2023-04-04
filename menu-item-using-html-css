@@ -1,0 +1,57 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation menu</title>
+    <style>
+        h2{
+            text-align: center;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        li{
+            float: left;
+            padding: 20px;
+        }
+        li a{
+            display: block;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            color: white;
+            padding: 14px 16px;
+            
+        }
+        li a:hover:not(.active){
+            background-color: #111;
+            border-radius: 2px solid black;
+
+        }
+        .active{
+            background-color: #1b694c;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>navigatio menu</h2>
+
+    <ul>
+        <li> <a href="">Home</a> </li>
+        <li> <a href="">Company</a> </li>
+        <li> <a href="">About</a> </li>
+        <li> <a href="">Conatact Us</a> </li>
+    </ul>
+    
+</body>
+</html>
